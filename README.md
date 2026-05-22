@@ -3,58 +3,44 @@ An AI-powered Wellness Dashboard built using HTML, CSS, JavaScript, Flask, Pytho
 This project analyzes daily lifestyle activities such as sleep, stress, productivity, hydration, screen time, exercise, and mood to generate wellness insights using a rule-based machine learning approach along with dynamic data visualization.
 
 ## Features
-- Minimal glassmorphism inspired UI
-- Animated gradient buttons and smooth transitions
-- Interactive sidebar settings panel
-- Dark mode and accent color controls
-- AI-based wellness prediction system
-- Dynamic health analytics graph visualization
-- Flask-powered frontend-backend integration
-- Mood text analysis using positive and negative keyword detection
-- Responsive and modern dashboard design
+1. Minimal glassmorphism inspired UI
+2. Animated gradient buttons and smooth transitions
+3. Interactive sidebar settings panel
+4. Dark mode and accent color controls
+5. AI-based wellness prediction system
+6. Dynamic health analytics graph visualization
+7. Flask-powered frontend-backend integration
+8. Mood text analysis using positive and negative keyword detection
+9. Responsive and modern dashboard design
 
 ## Code Used
 ### Frontend
-- HTML5
-- CSS3
-- JavaScript
+1. HTML5
+2. CSS3
+3. JavaScript
 ### Backend
-- Python
-- Flask
+1. Python
+2. Flask
 ### Data Visualization
-- Matplotlib
+1. Matplotlib
 ### AI / ML Logic
-- Rule-based wellness scoring system
+1. Rule-based wellness scoring system
 
 ## Wellness Parameters
 The dashboard evaluates:
-- Sleep Hours
-- Stress Level
-- Productivity Score
-- Water Intake
-- Screen Time
-- Exercise Duration
-- Mood Description
+1. Sleep Hours
+2. Stress Level
+3. Productivity Score
+4. Water Intake
+5. Screen Time
+6. Exercise Duration
+7. Mood Description
 
 Based on these inputs, the system predicts wellness states such as:
-- Excellent
-- Balanced
-- Stressed
-- Burnout
-
-AI-Wellness-Dashboard/
-│
-├── static/
-│   ├── style.css
-│   ├── script.js
-│   └── chart.png
-│
-├── templates/
-│   └── index.html
-│
-├── app.py
-├── model.py
-└── README.md
+1. Excellent
+2. Balanced
+3. Stressed
+4. Burnout
 
 ## How It Works
 1. User enters lifestyle data.
@@ -67,9 +53,9 @@ AI-Wellness-Dashboard/
 
 ## Learning Purpose
 This project was built as a hands-on practice project for improving skills in:
-- Frontend Development
-- Flask Backend Development
-- Python Programming
-- Machine Learning Concepts
-- Data Visualization
-- UI/UX Design
+1. Frontend Development
+2. Flask Backend Development
+3. Python Programming
+4. Machine Learning Concepts
+5. Data Visualization
+6. UI/UX Design
