@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Wellness Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <div class="blob blob1"></div>
+    <div class="blob blob2"></div>
+    <div id="sidebar">
+      <h2>⚙ Dashboard Settings</h2>
+      <div class="setting">
+        <label>Dark Mode</label>
+        <input type="checkbox" onchange="toggleDarkMode()" />
+      </div>
+      <div class="setting">
+        <label>Animations</label>
+        <input type="checkbox" checked onchange="toggleAnimation(this)" />
+      </div>   
+      <div class="setting">
+        <label>Accent Color</label>
+        <select onchange="changeAccent(this.value)">
+          <option value="#6366f1">Purple</option>
+          <option value="#06b6d4">Cyan</option>
+          <option value="#22c55e">Green</option>
+        </select>
+      </div>
+    </div>
+    <button id="menuBtn" onclick="toggleSidebar()">☰</button>
+    <div class="container">
+      <h1>AI Wellness Analyzer</h1>
+      <input type="number" id="sleep" placeholder="Sleep Hours" />
+      <input type="number" id="stress" placeholder="Stress Level (1-10)" />
+      <input type="number" id="productivity" placeholder="Productivity Score" />
+      <input type="number" id="water" placeholder="Water Intake (Glasses)" />
+      <input type="number" id="screen" placeholder="Screen Time (Hours)" />
+      <input
+        type="number"
+        id="exercise"
+        placeholder="Exercise Duration (Minutes)"
+      />
+      <textarea id="moodText" placeholder="Describe your mood..."></textarea>
+      <button class="analyze-btn" onclick="analyze()">Analyze Wellness</button>
+      <div id="result">Waiting for AI analysis...</div>
+      <img id="chart" src="/static/chart.png" />
+    </div>
+    <script src="/static/script.js"></script>
+  </body>
+</html>
