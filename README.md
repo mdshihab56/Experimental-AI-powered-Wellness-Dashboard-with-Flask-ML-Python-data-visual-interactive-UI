@@ -26,6 +26,9 @@ This project analyzes daily lifestyle activities such as sleep, stress, producti
 ### AI / ML Logic
 1. Rule-based wellness scoring system
 
+<img width="1920" height="1080" alt="Screenshot (4497)" src="https://github.com/user-attachments/assets/5acbcfe2-3d2a-4465-976d-75e1c775c3e7" />
+
+
 ## Wellness Parameters
 The dashboard evaluates:
 1. Sleep Hours
@@ -41,6 +44,10 @@ Based on these inputs, the system predicts wellness states such as:
 2. Balanced
 3. Stressed
 4. Burnout
+
+## Ai Wellness Analytics Graph output
+   <img width="800" height="400" alt="chart" src="https://github.com/user-attachments/assets/c9f9caa2-9da9-438e-9cbf-f75585d2a144" />
+
 
 ## How It Works
 1. User enters lifestyle data.
